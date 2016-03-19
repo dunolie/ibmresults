@@ -15,12 +15,12 @@ ini_set('display_errors','1');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<meta name="description" content="IBM Team Project">
-	<meta name="author" content="">
-	<link rel="icon" href="assets/site/favicon.ico">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="IBM Team Project">
+		<meta name="author" content="">
+		<link rel="icon" href="assets/site/favicon.ico">
 	<title>IBMTeam</title>
 	<!-- Bootstrap core CSS -->
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -28,13 +28,12 @@ ini_set('display_errors','1');
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-social.css">
 	<!-- Custom Css - rather than alter bootstrap files -->
-	<!-- Can add as many as we like just add the relation here -->
 	<link rel="stylesheet" href="assets/css/stylesheet1.css">
 
 
 </head>
 <body>
-	<div id="wrap"> <!-- wrapper starts, page content should be contained within this wrapper -->
+	<div id="wrap">
 	 <!-- Fixed navbar -->
 			<nav class="navbar navbar-default navbar-fixed-top">
 				<div class="container">

@@ -1,0 +1,524 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+@import url('http://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('http://fonts.googleapis.com/css?family=Ubuntu:400,500');
+@import url('assets/css/font-awesome.css');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans')
+
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+* {
+font-family: 'Open Sans', sans-serif;;
+  -webkit-border-radius: 0 ;
+     -moz-border-radius: 0 ;
+          border-radius: 0 ;
+		  
+}
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  height: auto;
+
+}
+html {
+    height: auto;
+}
+p {
+   
+   font-family: 'Open Sans', sans-serif;;
+}
+
+a {
+color: #34495e;
+
+}
+
+.text-white{
+	
+	color: #FFFFFF;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 400px;
+ margin-bottom: 40px;
+  background-color: #34495e;
+ /* background:url(http://anroth.co.uk/wp-content/uploads/anroth02.png); */
+  background-size:cover;
+  background-position: center center;
+}
+.ccustom {
+
+	height: 350px;
+
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: none !important;
+   
+}
+.captioncustom{
+
+   bottom: 80px;
+}
+.carousel-control.left{
+	background-image: none;
+}
+.carousel-control.right{
+	background-image: none;
+}
+.carousel-caption>h1 {
+	font-size: 60px;
+	margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: none;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+  background-color: none;
+}
+
+.carouselh2{
+
+font-size: 4em;
+}
+
+/* Custom header styling */
+.custom-header{
+  background:#292c2f;
+  padding:20px 40px;
+  box-sizing:border-box;
+  border:0;
+  border-radius:0;
+}
+
+.custom-header a.navbar-brand.navbar-link{
+  color:#fff;
+  font:normal 28px Cookie, Arial, Helvetica, sans-serif;
+  line-height:0.5;
+  margin-right:40px;
+  background:#292c2f;
+}
+
+.custom-header a.navbar-brand.navbar-link span{
+  color:#bc40df;
+}
+
+.custom-header ul.nav.navbar-nav.links li a{
+  font:14px Arial, Helvetica, sans-serif;
+  opacity:0.9;
+  text-decoration:none;
+  color:#fff;
+  background:#292c2f;
+  border:0;
+}
+
+.custom-header ul.nav.navbar-nav li a:hover{
+  opacity:1;
+}
+
+.custom-header .badge{
+  position:absolute;
+  top:4px;
+  border-radius:2px;
+  font-size:11px;
+  color:#fff;
+  background-color:#2A6A92;
+  padding:2px 4px;
+  font-weight:normal;
+}
+
+.custom-header li.dropdown, .custom-header li.dropdown.open{
+  background:#3a3c3e;
+}
+
+.custom-header li.dropdown .dropdown-toggle{
+  border-radius:2px;
+  color:#fff;
+  padding:8px 14px;
+  background:#3a3c3e;
+  opacity:0.9;
+  border:0;
+  margin:0;
+}
+
+.custom-header li.dropdown .dropdown-toggle:focus, .custom-header li.dropdown .dropdown-toggle:hover, .custom-header li.dropdown .dropdown-toggle:active{
+  background:#3a3c3e;
+  color:#fff;
+}
+
+.custom-header ul.nav.navbar-nav.navbar-right .dropdown li a{
+  font:bold 13px Arial, Helvetica, sans-serif;
+}
+
+img.dropdown-image{
+  border-radius:50%;
+  width:32px;
+  margin-left:10px;
+}
+
+.custom-header .dropdown ul{
+  background-color:#3a3c3e;
+  border:0;
+  min-width:140px;
+}
+
+.custom-header .dropdown ul li{
+  background-color:#3a3c3e;
+  padding:7px;
+  text-align:center;
+}
+
+.custom-header .dropdown ul li a{
+  background:#3a3c3e;
+  border-radius:2px;
+  color:#fff;
+  padding:0;
+}
+
+.custom-header .dropdown ul li a:active, .custom-header .dropdown ul li a:focus, .custom-header .dropdown ul li a:hover{
+  background:#3a3c3e;
+}
+
+.custom-header .dropdown ul li.active a{
+  color:#e9ac09 !important;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+  
+  
+  
+ 
+/* Sticky footer styles
+-------------------------------------------------- */
+.footer-navigation h3{
+  margin:0;
+  font:normal 36px Cookie, cursive;
+  margin-bottom:20px;
+  color:#fff;
+}
+
+.footer-navigation h3 a{
+  text-decoration:none;
+  color:#fff;
+}
+
+.footer-navigation h3 span{
+  color:#5383d3;
+}
+
+.footer-navigation p.links a{
+  color:#fff;
+  text-decoration:none;
+}
+
+.footer-navigation p.company-name{
+  color:#8f9296;
+  font-size:14px;
+  font-weight:normal;
+  margin-top:20px;
+}
+
+@media (max-width:767px) {
+  .footer-contacts{
+    margin:30px 0;
+  }
+}
+
+.footer-contacts p{
+  display:inline-block;
+  color:#ffffff;
+  vertical-align:middle;
+}
+
+.footer-contacts p a{
+  color:#5383d3;
+  text-decoration:none;
+}
+
+.fa.footer-contacts-icon{
+  background-color:#33383b;
+  color:#fff;
+  font-size:18px;
+  width:38px;
+  height:38px;
+  border-radius:50%;
+  text-align:center;
+  line-height:38px;
+  margin:10px 15px 10px 0;
+}
+
+span.new-line-span{
+  display:block;
+  font-weight:normal;
+  display:block;
+  font-weight:normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-about h4{
+  display:block;
+  color:#fff;
+  font-size:14px;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+
+.footer-about p{
+  line-height:20px;
+  color:#92999f;
+  font-size:13px;
+  font-weight:normal;
+  margin:0;
+}
+
+div.social-links{
+  margin-top:20px;
+  color:#fff;
+}
+
+.social-links a{
+  display:inline-block;
+  width:35px;
+  height:35px;
+  cursor:pointer;
+  background-color:#33383b;
+  border-radius:2px;
+  font-size:20px;
+  color:#ffffff;
+  text-align:center;
+  line-height:35px;
+  margin-right:5px;
+  margin-bottom:5px;
+}
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -285px;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(rgb(89, 169, 202), rgb(99, 55, 156));
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    height: 285px;
+	background-color: transparent;
+}
+
+#footer {
+  background-color:#292c2f;
+  box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing:border-box;
+  width:100%;
+  text-align:left;
+  font:bold 16px sans-serif;
+  padding:55px 50px;
+  margin-top:80px;
+  bottom:0;
+  color:#fff;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.clearbackground{
+	background-color: transparent;
+}
+.colorbackground{
+	
+	height: 100%;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(rgb(89, 169, 202), rgb(99, 55, 156));
+}
+
+.colorbackgroundreverse{
+	background-image: linear-gradient(rgb(99, 55, 156),rgb(89, 169, 202));
+}
+
+/* Login page custom css */
+.loginbody{
+	height: 100%;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(rgb(89, 169, 202), rgb(99, 55, 156));
+}
+
+.card-container.card{
+  max-width:350px;
+  padding:40px 40px;
+}
+
+.btn{
+  font-weight:700;
+  height:36px;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  user-select:none;
+  cursor:default;
+}
+
+.card{
+  background-color:#F7F7F7;
+  margin:0 auto 25px;
+  margin-top:50px;
+  border-radius:2px;
+  box-shadow:0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card{
+  width:96px;
+  height:96px;
+  margin:0 auto 10px;
+  display:block;
+  border-radius:50%;
+}
+
+.card-name{
+  font-size:16px;
+  font-weight:bold;
+  text-align:center;
+  margin:12px 0 20px;
+  min-height:1em;
+}
+
+.form-signin #inputEmail, .form-signin #inputPassword{
+  height:44px;
+  font-size:16px;
+}
+
+.form-signin input[type=email], .form-signin input[type=password], .form-signin input[type=text], .form-signin button{
+  width:100%;
+  display:block;
+  margin-bottom:10px;
+  z-index:1;
+  position:relative;
+}
+
+.form-signin .form-control:focus{
+  border-color:rgb(104, 145, 162);
+  outline:0;
+  box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+
+.btn.btn-signin{
+  font-weight:700;
+  font-size:14px;
+  height:36px;
+  background:rgb(104, 145, 162);
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  border:none;
+  -o-transition:all 0.218s;
+  -moz-transition:all 0.218s;
+  -webkit-transition:all 0.218s;
+  transition:all 0.218s;
+}
+
+.btn.btn-signin:hover, .btn.btn-signin:active, .btn.btn-signin:focus{
+  background:rgb(117, 70, 183);
+}
+
+.forgot-password{
+  color:rgb(104, 145, 162);
+}
+
+.forgot-password:hover, .forgot-password:active, .forgot-password:focus{
+  color:rgb(12, 97, 33);
+}
+.card-container.card.booking {
+max-width: 700px;
+padding: 40px 40px;
+}
+
+.btn .btn-default .booking1{
+	
+	margin-top:10px;
+}
+
+
+
+
+.bs-wizard {margin-top: 40px;}
+
+/*Form Wizard*/
+.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
+.bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
+.bs-wizard > .bs-wizard-step + .bs-wizard-step {}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #595959; font-size: 16px; margin-bottom: 5px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #999; font-size: 14px;}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #fbe8aa; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;} 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #fbbd19; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #fbe8aa;}
+.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}
+.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}
+.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
+.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {width: 100%;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {background-color: #f5f5f5;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {opacity: 0;}
+.bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
+.bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
+.bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
+/*END Form Wizard*/
+
+
+
+.confirmation{
+	margin: 5em auto;
+	
+}
+
+.confirmation>h1{
+	color: white;
+	
+
+}
+
+.center {
+    text-align:center;
+}
+
+.center form {
+    display:inline-block;
+}
