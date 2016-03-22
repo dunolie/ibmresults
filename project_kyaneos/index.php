@@ -133,7 +133,7 @@ ini_set('display_errors','1');
 				<div class="jumbotron">
 					<div class="row">
 						<div class="col-md-5">
-							<img src="assets/images/image1.jpg" class="img-responsive">
+							<img src="assets/images/image1.JPG" class="img-responsive">
 						</div>
 						<div class="col-md-6">
 							<H2> Featured Course </H2>
